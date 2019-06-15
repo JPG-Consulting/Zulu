@@ -59,5 +59,14 @@ namespace Zulu.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Data access error..
+        /// </summary>
+        internal static string DataException_Generic {
+            get {
+                return ResourceManager.GetString("DataException_Generic", resourceCulture);
+            }
+        }
     }
 }
