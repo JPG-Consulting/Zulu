@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zulu", "Zulu\Zulu.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zulu.Data", "Zulu.Data\Zulu.Data.csproj", "{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zulu.Configuration", "Zulu.Configuration\Zulu.Configuration.csproj", "{2B61501B-BE53-4552-88CD-BDDBF1745A23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B61501B-BE53-4552-88CD-BDDBF1745A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B61501B-BE53-4552-88CD-BDDBF1745A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B61501B-BE53-4552-88CD-BDDBF1745A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B61501B-BE53-4552-88CD-BDDBF1745A23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
