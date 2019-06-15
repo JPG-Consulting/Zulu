@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zulu", "Zulu\Zulu.csproj", "{2402F507-EA38-45D5-9CBF-94879E9D6279}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zulu.Data", "Zulu.Data\Zulu.Data.csproj", "{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2402F507-EA38-45D5-9CBF-94879E9D6279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2402F507-EA38-45D5-9CBF-94879E9D6279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2402F507-EA38-45D5-9CBF-94879E9D6279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

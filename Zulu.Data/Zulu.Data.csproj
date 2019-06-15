@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2402F507-EA38-45D5-9CBF-94879E9D6279}</ProjectGuid>
+    <ProjectGuid>{F969BF67-EAE8-4D5A-8292-51E676D7F5FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Zulu</RootNamespace>
-    <AssemblyName>Zulu</AssemblyName>
+    <AssemblyName>Zulu.Data</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -70,6 +70,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -77,19 +78,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Resources\CommonResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CommonResources.resx</DependentUpon>
-    </Compile>
+    <Compile Include="Configuration\ConnectionStringSettingsExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RuntimeException.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\CommonResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>CommonResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <Folder Include="Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
