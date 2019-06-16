@@ -6,6 +6,11 @@ namespace Zulu.Configuration
 {
     public static class ConnectionStringSettingsExtensions
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="connectionStringSettings"></param>
+        /// <returns></returns>
         public static DbCommand CreateDbCommand(this ConnectionStringSettings connectionStringSettings)
         {
             if (connectionStringSettings == null)
@@ -22,6 +27,11 @@ namespace Zulu.Configuration
             return command;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="connectionStringSettings"></param>
+        /// <returns></returns>
         public static DbConnection CreateDbConnection(this ConnectionStringSettings connectionStringSettings)
         {
             if (connectionStringSettings == null)
@@ -51,7 +61,7 @@ namespace Zulu.Configuration
             if (connectionStringSettings == null)
                 throw new ArgumentNullException("connectionStringSettings");
 
-            // ToDo: Validaciones
+            // Comprobar que se ha especificado el nombre del proveedor de datos.
 #if NET35
             if ((connectionStringSettings.ProviderName == null) || (connectionStringSettings.ProviderName.Trim().Length == 0))
 #else
@@ -62,12 +72,14 @@ namespace Zulu.Configuration
                     connectionStringSettings.ElementInformation.Source,
                     connectionStringSettings.ElementInformation.LineNumber);
 
+            // Comprobar que el nombre del proveedor de datos es válido.
             if (DbProviderFactories.GetFactoryClasses().Rows.Find(connectionStringSettings.ProviderName) == null)
                 throw new ConfigurationErrorsException(
                     "",
                     connectionStringSettings.ElementInformation.Source,
                     connectionStringSettings.ElementInformation.LineNumber);
 
+            // Obtenemos y devolvemos la factoría para el proveedor de datos.
             return DbProviderFactories.GetFactory(connectionStringSettings.ProviderName);
         }
     }

@@ -4,6 +4,9 @@ using Zulu.Resources;
 
 namespace Zulu
 {
+    /// <summary>
+    /// Representa los errores que se producen en tiempo de ejecución de una aplicación.
+    /// </summary>
     public class RuntimeException : SystemException
     {
         /// <summary>

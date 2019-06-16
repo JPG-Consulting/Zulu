@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\ConnectionStringSettingsExtensions.cs" />
+    <Compile Include="Data\DataException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\DataResources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -86,14 +87,18 @@
       <DependentUpon>DataResources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Resources\DataResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DataResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zulu\Zulu.csproj">
+      <Project>{2402f507-ea38-45d5-9cbf-94879e9d6279}</Project>
+      <Name>Zulu</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

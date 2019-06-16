@@ -1,0 +1,7 @@
+E:\Projects\Github\Zulu\Zulu\bin\Debug\Zulu.dll
+E:\Projects\Github\Zulu\Zulu\bin\Debug\Zulu.pdb
+E:\Projects\Github\Zulu\Zulu\obj\Debug\Zulu.csprojResolveAssemblyReference.cache
+E:\Projects\Github\Zulu\Zulu\obj\Debug\Zulu.Resources.CommonResources.resources
+E:\Projects\Github\Zulu\Zulu\obj\Debug\Zulu.csproj.GenerateResource.Cache
+E:\Projects\Github\Zulu\Zulu\obj\Debug\Zulu.dll
+E:\Projects\Github\Zulu\Zulu\obj\Debug\Zulu.pdb

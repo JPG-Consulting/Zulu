@@ -1,0 +1,5 @@
+E:\Projects\Github\Zulu\Zulu.Configuration\bin\Debug\Zulu.Configuration.dll
+E:\Projects\Github\Zulu\Zulu.Configuration\bin\Debug\Zulu.Configuration.pdb
+E:\Projects\Github\Zulu\Zulu.Configuration\obj\Debug\Zulu.Configuration.csprojResolveAssemblyReference.cache
+E:\Projects\Github\Zulu\Zulu.Configuration\obj\Debug\Zulu.Configuration.dll
+E:\Projects\Github\Zulu\Zulu.Configuration\obj\Debug\Zulu.Configuration.pdb

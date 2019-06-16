@@ -1,0 +1,9 @@
+E:\Projects\Github\Zulu\Zulu.Data\bin\Debug\Zulu.Data.dll
+E:\Projects\Github\Zulu\Zulu.Data\bin\Debug\Zulu.Data.pdb
+E:\Projects\Github\Zulu\Zulu.Data\bin\Debug\Zulu.dll
+E:\Projects\Github\Zulu\Zulu.Data\bin\Debug\Zulu.pdb
+E:\Projects\Github\Zulu\Zulu.Data\obj\Debug\Zulu.Data.csprojResolveAssemblyReference.cache
+E:\Projects\Github\Zulu\Zulu.Data\obj\Debug\Zulu.Resources.DataResources.resources
+E:\Projects\Github\Zulu\Zulu.Data\obj\Debug\Zulu.Data.csproj.GenerateResource.Cache
+E:\Projects\Github\Zulu\Zulu.Data\obj\Debug\Zulu.Data.dll
+E:\Projects\Github\Zulu\Zulu.Data\obj\Debug\Zulu.Data.pdb

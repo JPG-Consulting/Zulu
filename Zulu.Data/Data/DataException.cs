@@ -1,11 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Runtime.Serialization;
+using Zulu.Resources;
 
 namespace Zulu.Data
 {
-    class DataException
+    public class DataException : RuntimeException
     {
+        public DataException() 
+            : base(DataResources.DataException_Generic)
+        { }
+
+        public DataException(String message) 
+            : base(message)
+        { }
+
+        public DataException(String message, Exception innerException) 
+            : base(message, innerException)
+        { }
+
+        protected DataException(SerializationInfo info, StreamingContext context) 
+            : base(info, context)
+        { }
     }
 }
